@@ -25,5 +25,5 @@ export const metadata = {
 export default function RootLayout({
   children
 }) {
-  return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><Header />{children}<footer id="contact"><a href="/" aria-label="The Oasis Abeokuta home"><img src="/assets/logo.png" alt="The Oasis Abeokuta" width="163" height="73" /></a><p>A new standard of living. Coming to Abeokuta.</p><a href="/early-access">Be Among the First to Book <span aria-hidden="true">→</span></a><small>© {new Date().getFullYear()} The Oasis Abeokuta. All rights reserved.</small></footer></body></html>;
+  return <html lang="en"><body id="page-top"><a className="skip-link" href="#main">Skip to content</a><Header />{children}<footer id="contact"><a href="/" aria-label="The Oasis Abeokuta home"><img src="/assets/logo.png" alt="The Oasis Abeokuta" width="163" height="73" /></a><p>A new standard of living. Coming to Abeokuta.</p><a href="/early-access">Be Among the First to Book <span aria-hidden="true">→</span></a><small>© {new Date().getFullYear()} The Oasis Abeokuta. All rights reserved.</small></footer><a className="back-to-top" href="#page-top" aria-label="Back to top" title="Back to top"><span aria-hidden="true" /></a></body></html>;
 }
