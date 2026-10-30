@@ -1,0 +1,14 @@
+# Local credentials and tool state must never be uploaded.
+.env*
+.git/
+.agents/
+.aws/
+.codex/
+.vercel/
+node_modules/
+.next/
+# Original reference media is already represented by assets under public/.
+/*.png
+/*.jpeg
+/*.jpg
+/*.mp4
